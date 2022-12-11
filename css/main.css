@@ -1,0 +1,28 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+   border: 1px solid red;
+}
+html, body {
+font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+   margin: 0 auto;
+   padding: 0 15px;
+   width: 1200px;
+}
+
+
+.nav{
+   border-bottom: 1px solid #26292d;
+   padding: 20px 0;
+   background-color: #171718;
+   color: #fff;
+}
