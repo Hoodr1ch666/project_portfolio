@@ -37,6 +37,8 @@ font-family: 'Poppins', sans-serif;
    --page-bg: #252526;
    --text-color: var(--white);
    --title-1:var(--white);
+   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+   --project-card-bg:var(--black);
 }
 
 html, body {
@@ -232,6 +234,7 @@ color: var(--accent);
    border-radius: 5px;
    border: 1px solid var(--black);
    color: var(--black);
+   background-color: var(--white);
    transition: opacity 0.2s ease-in;
 }
 .btn-outline:hover {
@@ -262,7 +265,7 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 column-gap: 30px;
-row-gap: 30px;
+row-gap: 30px; 
 }
 .project {
 max-width: 370px;
