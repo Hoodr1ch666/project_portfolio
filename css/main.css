@@ -274,10 +274,12 @@ background-color: var(--white);
 border-radius: 10px; */
 }
 .project__img {
-   border-radius: 10px;
+   border-radius: 30px;
 }
-/* .project__title {
-} */
+.project__title {
+   color: #000;
+   font-size: 26px;
+}
 
 /* project-details */
 
